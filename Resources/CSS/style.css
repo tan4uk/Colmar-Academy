@@ -1,6 +1,51 @@
 /* Universal Styles */
 
+body { 
+    margin: 0;  
+}
+
+.flex-container {
+    display: flex;   
+}
+
 /* Header Section */
+
+header {
+    height: 64px;
+    align-items: center;
+    margin: 0 24px;
+}
+
+header img {
+    height: 36px;
+}
+header .academy-name {
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header strong {
+    font-weight: bold;
+}
+
+header nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+header ul li {
+    display: inline;
+    margin: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header a {
+    color: gray;
+}
+
 
 /* Main Section */
 
