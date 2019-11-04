@@ -18,13 +18,23 @@ h1 {
     margin-bottom: 25px;
 }
 
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
 h3 {
     font-size: 24px;
     margin: 30px 0;
     font-weight: bold;
 }
 
+h4 {
+    font-size: 18px;
+    line-height: 1.7;
+}
 /* Header Section */
+
 
 header {
     height: 64px;
@@ -65,18 +75,26 @@ header a {
 
 /* Main Section */
 
+/* Banner Section */
+
 #banner {
     background-color: lightgrey;
 }
 
-#banner img {
+.banner-image-container {
     width: 60%;
+}
+
+#banner img {
+    width: 100%;
     margin: 32px 24px;
 }
 
 div .banner-text {
+    position: relative;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
+    left: 48px;
     margin-top: 90px;
     padding-top: 90px;
     height: 400px;
@@ -92,9 +110,44 @@ div .button {
     background-color: darkslategrey;
 }
 
-/* Banner Section */
-
 /* Information Section */
+
+#information {
+    
+}
+
+.right-side {
+    
+    width: 60%;
+    
+}
+
+.right-side img {
+    
+    width: 100%;
+    margin: 32px 24px;
+}
+
+.right-side .text-container {
+    margin-left: 24px;
+    
+    height: 200px;
+}
+
+.right-side h4 {
+    
+    margin: 24px 0;
+}
+
+.right-side h5 {
+    margin: 32px 0;
+    font-weight: bold;
+    
+}
+
+.left-side {
+    
+}
 
 /* Courses Section */
 
