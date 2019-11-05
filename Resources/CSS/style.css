@@ -81,13 +81,10 @@ header a {
     background-color: lightgrey;
 }
 
-.banner-image-container {
-    width: 60%;
-}
-
 #banner img {
-    width: 100%;
-    margin: 32px 24px;
+    width: 60%;
+    padding: 32px 24px;
+    
 }
 
 div .banner-text {
@@ -112,44 +109,20 @@ div .button {
 
 /* Information Section */
 
-#information {
+.left-side {
+    
+    border: 1px solid red;
     
 }
 
-.right-side {
-    
+.left-side image {
     width: 60%;
     
 }
 
-.right-side img {
-    
-    width: 100%;
-    margin: 32px 24px;
-}
-
-.right-side .text-container {
-    margin-left: 24px;
-    
-    height: 200px;
-}
-
-.right-side h4 {
-    
-    margin: 24px 0;
-}
-
-.right-side h5 {
-    margin: 32px 0;
-    font-weight: bold;
-    
-}
-
-.left-side {
-    
-}
-
 /* Courses Section */
+
+
 
 /* Thesis Section */
 
