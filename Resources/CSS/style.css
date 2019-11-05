@@ -132,7 +132,7 @@ div .button {
 }
 
 .left-side h5 {
-    padding: 32px 0;
+    padding: 40px 0;
 } 
 
 .event img {
@@ -141,7 +141,7 @@ div .button {
 }
 
 .right-side {
-    width: 37%;
+    width: 40%;
     margin-top: 16px;
 }
 
@@ -157,6 +157,8 @@ div .button {
 
 #courses {
     background-color: lightgray;
+    margin-top: 32px;
+    padding-bottom: 32px;
 }
 
 #courses h2 {
@@ -168,12 +170,13 @@ div .button {
     flex-wrap: wrap;
     justify-content: space-around;
     width: auto;
-    margin: 16px 56px;
+    margin: 16px 72px;
 }
 
 .course {
     width: 30%;
     margin: 16px;
+    background-color: white;
 }
 
 .course-image img {
@@ -189,11 +192,45 @@ div .button {
     padding-left: 16px;
 }
 
-
-
-   
-
-
 /* Thesis Section */
+
+#thesis h2 {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+.left-container {
+    width: 60%;
+    margin: 24px;
+}
+
+.left-container video {
+    width: 100%;
+}
+
+.right-container {
+    width: 40%;
+    margin-top: 24px;
+}
+
+.thesis-img {
+    width: 35%;
+
+}
+.thesis img {
+    height: auto;
+    width: 100%;
+    padding: 16px;
+}
+
+.thesis-info {
+    width: 65%;
+}
+
+.thesis-info h3 {
+    padding-top: 30px;
+}
+
 
 /* Footer Section */
