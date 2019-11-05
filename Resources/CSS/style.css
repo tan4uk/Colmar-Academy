@@ -1,5 +1,9 @@
 /* Universal Styles */
 
+* {
+    box-sizing: border-box;
+}
+
 body { 
     margin: 0;  
 }
@@ -25,7 +29,7 @@ h2 {
 
 h3 {
     font-size: 24px;
-    margin: 30px 0;
+    margin: 16px 0;
     font-weight: bold;
 }
 
@@ -141,8 +145,53 @@ div .button {
     margin-top: 16px;
 }
 
+.right-side .guest {
+    background-color: lightgrey;
+}
+
+.right-side h3 {
+    margin-top: 50px;
+}
+
 /* Courses Section */
 
+#courses {
+    background-color: lightgray;
+}
+
+#courses h2 {
+   text-align: center;
+   padding-top: 32px;
+}
+
+.courses-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    margin: 16px 56px;
+}
+
+.course {
+    width: 30%;
+    margin: 16px;
+}
+
+.course-image img {
+    width: 100%;
+    height: auto;
+}
+
+.course h4 {
+    margin: 4px 0;
+}
+
+.course-info {
+    padding-left: 16px;
+}
+
+
+
+   
 
 
 /* Thesis Section */
