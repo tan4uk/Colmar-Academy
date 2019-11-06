@@ -52,11 +52,11 @@ header {
 }
 
 header img {
-    height: 36px;
+    height: 50px;
 }
 header .academy-name {
     margin: auto;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -78,7 +78,7 @@ header ul li {
 }
 
 header a {
-    color: gray;
+    color: #691208;
 }
 
 
@@ -87,7 +87,7 @@ header a {
 /* Banner Section */
 
 #banner {
-    background-color: lightgrey;
+    background-color: #DACAC8
 }
 
 #banner img {
@@ -109,10 +109,14 @@ div .button {
     margin-top: 60px;
     padding: 12px 30px;
     text-align: center;
-    color: white;
     font-size: 22px;
     font-weight: bold;
-    background-color: darkslategrey;
+    background-color: #691208;
+    border-radius: 20px;
+}
+
+.button a {
+    color: white;
 }
 
 /* Information Section */
@@ -135,6 +139,11 @@ div .button {
     padding: 40px 0;
 } 
 
+.event {
+    border: 0.07px solid #E4B4AF;
+    margin: 0.5px;
+}
+
 .event img {
     width: 35%;
     margin: 16px;
@@ -146,17 +155,18 @@ div .button {
 }
 
 .right-side .guest {
-    background-color: lightgrey;
+    background-color: #DACAC8;
 }
 
 .right-side h3 {
     margin-top: 50px;
+    color: #691208;
 }
 
 /* Courses Section */
 
 #courses {
-    background-color: lightgray;
+    background-color: #DACAC8;
     margin-top: 32px;
     padding-bottom: 32px;
 }
@@ -209,6 +219,10 @@ div .button {
     width: 100%;
 }
 
+.video-info h3 {
+    color: #691208;
+}
+
 .right-container {
     width: 40%;
     margin-top: 24px;
@@ -233,7 +247,7 @@ div .button {
 }
 
 .right-container .first {
-    background-color: lightgrey;
+    background-color: #DACAC8;
 }
 
 
