@@ -34,7 +34,7 @@ h3 {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.7;
 }
 
@@ -42,8 +42,8 @@ h5 {
     font-weight: bold;
 }
 
-/* Header Section */
 
+/* Header Section */
 
 header {
     height: 64px;
@@ -78,7 +78,7 @@ header .desctop {
 }
 
 .desctop a {
-    color: #691208;
+    color: #890713;
 }
 
 header .mobile {
@@ -124,7 +124,6 @@ header .mobile {
 
 .banner-image {
     width: 60%;
-    
 }
 
 #banner img {
@@ -137,6 +136,11 @@ div .banner-text {
     width: 40%;
     align-items: center;
     justify-content: center;
+}
+
+.banner-text h1 {
+    color: #542A34;
+
 }
 
 .banner-text .text-container {
@@ -153,7 +157,7 @@ div .button {
     text-align: center;
     font-size: 22px;
     font-weight: bold;
-    background-color: #691208;
+    background-color: #890713;
     border-radius: 20px;
 }
 
@@ -189,13 +193,11 @@ div .button {
 
     .button {
         margin: 0;
-        border: 1px solid red;
     }
 
     .banner-text h3 {
         margin: 0;
     }
-  
   }
 
 /* Information Section */
@@ -213,6 +215,7 @@ div .button {
 .left-section h2 {
     padding-top: 32px;
     padding-bottom: 24px;
+    color: #542A34;
 }
 
 .left-section h5 {
@@ -244,11 +247,16 @@ div .button {
 
 .right-section h3 {
     margin-top: 50px;
-    color: #691208;
+    color: #890713;
 }
 
-.right-section .read {
-    color: blue;
+.read {
+    margin-top: 40px;
+}
+
+.read a {
+    color: #0C083E;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 780px) {
@@ -263,6 +271,10 @@ div .button {
 
     .event .desctop {
         display: none;
+    }
+
+    .right-section .guest {
+        background-color: white;
     }
 
     .event .mobile {
@@ -304,6 +316,7 @@ div .button {
 #courses h2 {
    text-align: center;
    padding-top: 32px;
+   color: #A0070F;
 }
 
 .courses-container {
@@ -324,6 +337,10 @@ div .button {
     height: auto;
 }
 
+.course h3 {
+    color: #890713;
+}
+
 .course h4 {
     margin: 4px 0;
 }
@@ -341,6 +358,14 @@ div .button {
      .course-image, 
      .course-info h4 {
         display: none;
+    }
+
+    #courses {
+        background-color: white;
+    }
+
+    .course {
+        background-color: #DACAC8;
     }
 
     .course h3 {
@@ -380,7 +405,7 @@ div .button {
 }
 
 .video-info h3 {
-    color: #691208;
+    color: #890713;
 }
 
 .right-container {
