@@ -210,19 +210,23 @@ div .button {
     padding: 40px 0;
 } 
 
+.right-section {
+    width: 40%;
+    margin-top: 16px;
+}
+
 .event {
     border: 0.07px solid #E4B4AF;
     margin: 0.5px;
 }
 
-.event img {
+.event .desctop {
     width: 35%;
     margin: 16px;
 }
 
-.right-section {
-    width: 40%;
-    margin-top: 16px;
+.event .mobile {
+    display: none;
 }
 
 .right-section .guest {
@@ -234,7 +238,52 @@ div .button {
     color: #691208;
 }
 
+.right-section .read {
+    color: blue;
+}
 
+@media only screen and (max-width: 780px) {
+  
+    .left-section {
+        display: none;
+    }
+
+    .right-section{
+        width: 100%;
+    }
+
+    .event .desctop {
+        display: none;
+    }
+
+    .event .mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .event {
+        display: block;
+        margin: 16px;
+    }
+
+    .right-section {
+        margin: 0;
+    }
+
+    .right-section .text-container {
+        margin: 15px;
+        padding-left: 16px;
+    }
+
+    .text-container h3 {
+        margin-top: 30px;
+    }
+
+    .text-container h4 {
+        margin-top: 16px;
+    }
+
+}
 
 /* Courses Section */
 
