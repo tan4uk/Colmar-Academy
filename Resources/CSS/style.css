@@ -85,7 +85,6 @@ header .mobile {
     display: none;
 }
 
-
 @media only screen and (max-width: 780px) {
 
     header {
@@ -115,7 +114,6 @@ header .mobile {
     }
 }
 
-
 /* Main Section */
 
 /* Banner Section */
@@ -136,13 +134,17 @@ header .mobile {
 }
 
 div .banner-text {
-    position: relative;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text .text-container {
     flex-direction: column;
-    width: 400px;
-    left: 48px;
-    margin-top: 90px;
-    padding-top: 90px;
-    height: 400px;
+    width: 60%;
+    height: 70%;
+    margin-top: 100px;
+    text-align: center;
 }
 
 div .button {
@@ -159,24 +161,52 @@ div .button {
     color: white;
 }
 
+@media only screen and (max-width: 780px) {
+
+    #banner {
+        display: block;
+    }
+  
+    .banner-image {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+  
+    #banner img {
+        padding: 0;
+        margin: 0;
+    }
+  
+    div .banner-text {
+        width: 100%;
+        margin: 0;
+    }
+  
+    .banner-text .text-container {
+      margin: 32px 16px;
+    }
+  
+  }
+
 /* Information Section */
 
-.left-side {
+.left-section {
    width: 60%;
    padding: 32px 24px;
 }
 
-.left-side img {
+.left-section img {
     width: 100%;
     height: auto;
 }
 
-.left-side h2 {
+.left-section h2 {
     padding-top: 32px;
     padding-bottom: 24px;
 }
 
-.left-side h5 {
+.left-section h5 {
     padding: 40px 0;
 } 
 
@@ -190,19 +220,21 @@ div .button {
     margin: 16px;
 }
 
-.right-side {
+.right-section {
     width: 40%;
     margin-top: 16px;
 }
 
-.right-side .guest {
+.right-section .guest {
     background-color: #DACAC8;
 }
 
-.right-side h3 {
+.right-section h3 {
     margin-top: 50px;
     color: #691208;
 }
+
+
 
 /* Courses Section */
 
@@ -242,6 +274,8 @@ div .button {
 .course-info {
     padding-left: 16px;
 }
+
+
 
 /* Thesis Section */
 
