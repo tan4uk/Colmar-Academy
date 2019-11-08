@@ -336,7 +336,6 @@ div .button {
 
     .course h3 {
         margin-top: 28px;
-        
     }
 
     .courses-container {
@@ -345,16 +344,12 @@ div .button {
         padding: 20px;
         flex-direction: column;
         overflow: auto;
-        border: 1px solid red;
     }
 
     .course {
         width: 100%;
         margin: 8px 0;
         height: 80px;
-        
-        
-        border: 1px solid red;
     }
 }
 
@@ -404,6 +399,24 @@ div .button {
 
 .right-container .first {
     background-color: #DACAC8;
+}
+
+@media only screen and (max-width: 780px) {
+
+    .right-container,
+    .video-info {
+        display: none;
+    }
+
+    .left-container {
+        width: 100%;
+        margin: 0;
+        border: 1px solid red;
+    }
+
+    #thesis h2 {
+        padding-bottom: 16px;
+    }
 }
 
 
