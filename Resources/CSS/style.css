@@ -282,7 +282,6 @@ div .button {
     .text-container h4 {
         margin-top: 16px;
     }
-
 }
 
 /* Courses Section */
@@ -324,7 +323,40 @@ div .button {
     padding-left: 16px;
 }
 
+@media only screen and (max-width: 780px) {
 
+     #courses h2 {
+        padding-bottom: 16px;
+     }
+
+     .course-image, 
+     .course-info h4 {
+        display: none;
+    }
+
+    .course h3 {
+        margin-top: 28px;
+        
+    }
+
+    .courses-container {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        flex-direction: column;
+        overflow: auto;
+        border: 1px solid red;
+    }
+
+    .course {
+        width: 100%;
+        margin: 8px 0;
+        height: 80px;
+        
+        
+        border: 1px solid red;
+    }
+}
 
 /* Thesis Section */
 
