@@ -186,6 +186,15 @@ div .button {
     .banner-text .text-container {
       margin: 32px 16px;
     }
+
+    .button {
+        margin: 0;
+        border: 1px solid red;
+    }
+
+    .banner-text h3 {
+        margin: 0;
+    }
   
   }
 
@@ -411,7 +420,6 @@ div .button {
     .left-container {
         width: 100%;
         margin: 0;
-        border: 1px solid red;
     }
 
     #thesis h2 {
@@ -434,4 +442,17 @@ footer nav {
 
 footer a {
     margin: 10px;
+}
+
+@media only screen and (max-width: 780px) {
+
+    footer nav {
+        display: none;
+    }
+
+    .copyright {
+        width: 100%;
+        margin-top: 24px;
+        font-size: 18px;
+    }
 }
