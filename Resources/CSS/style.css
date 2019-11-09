@@ -20,11 +20,13 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 25px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 h2 {
     font-size: 35px;
     font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 h3 {
@@ -54,10 +56,11 @@ header {
 .desctop-logo img {
     height: 50px;
 }
+
 header .academy-name {
     margin: auto;
     font-size: 30px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Zilla Slab', serif;
 }
 
 header strong {
@@ -85,7 +88,7 @@ header .mobile {
     display: none;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 480px) {
 
     header {
         height: 64px;
@@ -114,12 +117,14 @@ header .mobile {
     }
 }
 
+
 /* Main Section */
+
 
 /* Banner Section */
 
 #banner {
-    background-color: #DACAC8
+    background-color: #DACAC8;
 }
 
 .banner-image {
@@ -139,8 +144,7 @@ div .banner-text {
 }
 
 .banner-text h1 {
-    color: #542A34;
-
+    color: #3E0645;
 }
 
 .banner-text .text-container {
@@ -165,7 +169,7 @@ div .button {
     color: white;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 480px) {
 
     #banner {
         display: block;
@@ -200,6 +204,7 @@ div .button {
     }
   }
 
+
 /* Information Section */
 
 .left-section {
@@ -215,7 +220,7 @@ div .button {
 .left-section h2 {
     padding-top: 32px;
     padding-bottom: 24px;
-    color: #542A34;
+    color: #3E0645;
 }
 
 .left-section h5 {
@@ -242,7 +247,7 @@ div .button {
 }
 
 .right-section .guest {
-    background-color: #DACAC8;
+    background-color: #BB9295;
 }
 
 .right-section h3 {
@@ -259,13 +264,13 @@ div .button {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 480px) {
   
     .left-section {
         display: none;
     }
 
-    .right-section{
+    .right-section {
         width: 100%;
     }
 
@@ -274,7 +279,7 @@ div .button {
     }
 
     .right-section .guest {
-        background-color: white;
+        background-color: #BB9295;
     }
 
     .event .mobile {
@@ -305,6 +310,7 @@ div .button {
     }
 }
 
+
 /* Courses Section */
 
 #courses {
@@ -316,7 +322,7 @@ div .button {
 #courses h2 {
    text-align: center;
    padding-top: 32px;
-   color: #A0070F;
+   color: #890713;
 }
 
 .courses-container {
@@ -338,30 +344,41 @@ div .button {
 }
 
 .course h3 {
-    color: #890713;
+    color: #3E0645;
 }
 
 .course h4 {
     margin: 4px 0;
 }
 
+.course span {
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 4px 0;
+    color: #8E7F81;
+    font-weight: bold;
+}
+
 .course-info {
     padding-left: 16px;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 480px) {
 
      #courses h2 {
         padding-bottom: 16px;
+        
      }
 
      .course-image, 
-     .course-info h4 {
+     .course-info h4,
+     .course-info span {
         display: none;
     }
 
     #courses {
         background-color: white;
+        margin-top: 0;
     }
 
     .course {
@@ -387,12 +404,14 @@ div .button {
     }
 }
 
+
 /* Thesis Section */
 
 #thesis h2 {
     text-align: center;
     padding-top: 32px;
     padding-bottom: 8px;
+    color: #890713;
 }
 
 .left-container {
@@ -405,7 +424,7 @@ div .button {
 }
 
 .video-info h3 {
-    color: #890713;
+    color: #3E0645;
 }
 
 .right-container {
@@ -417,6 +436,7 @@ div .button {
     width: 35%;
 
 }
+
 .thesis img {
     height: auto;
     width: 100%;
@@ -429,13 +449,14 @@ div .button {
 
 .thesis-info h3 {
     padding-top: 30px;
+    color: #3E0645;
 }
 
 .right-container .first {
-    background-color: #DACAC8;
+    background-color: #BB9295;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 480px) {
 
     .right-container,
     .video-info {
@@ -448,7 +469,7 @@ div .button {
     }
 
     #thesis h2 {
-        padding-bottom: 16px;
+        padding-bottom: 32px;
     }
 }
 
@@ -469,7 +490,7 @@ footer a {
     margin: 10px;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 480px) {
 
     footer nav {
         display: none;
